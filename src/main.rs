@@ -1,3 +1,5 @@
-fn main() {
-    println!("Hello, world!");
+mod models;
+
+fn main(){
+    print!("Hello World")
 }

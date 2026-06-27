@@ -1,0 +1,275 @@
+   0.102576800s  INFO prepare_target{force=false package_id=iseeyou v0.1.0 (C:\Users\dvill\Documents\projects\iseeyou-alert) target="iseeyou"}: cargo::core::compiler::fingerprint: fingerprint error for iseeyou v0.1.0 (C:\Users\dvill\Documents\projects\iseeyou-alert)/Check { test: false }/TargetInner { name: "iseeyou", doc: true, ..: with_path("C:\\Users\\dvill\\Documents\\projects\\iseeyou-alert\\src\\main.rs", Edition2024) }
+   0.102677500s  INFO prepare_target{force=false package_id=iseeyou v0.1.0 (C:\Users\dvill\Documents\projects\iseeyou-alert) target="iseeyou"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\iseeyou-795ee31819a512e3\bin-iseeyou`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.125209200s  INFO prepare_target{force=false package_id=chrono v0.4.45 target="chrono"}: cargo::core::compiler::fingerprint: fingerprint error for chrono v0.4.45/Check { test: false }/TargetInner { ..: lib_target("chrono", ["lib"], "C:\\Users\\dvill\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\chrono-0.4.45\\src\\lib.rs", Edition2021) }
+   0.125304700s  INFO prepare_target{force=false package_id=chrono v0.4.45 target="chrono"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\chrono-bd1bcfa3aa5ede20\lib-chrono`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.126705100s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\dvill\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.126764000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\num-traits-6dc3bbb272380c10\lib-num_traits`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.129442400s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\dvill\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
+   0.129501700s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\num-traits-0b10b89d7b4b6274\run-build-script-build-script-build`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.130012700s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\dvill\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
+   0.130066400s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\num-traits-7f759f45c2553a27\build-script-build-script-build`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.132196700s  INFO prepare_target{force=false package_id=chrono-tz v0.10.4 target="chrono_tz"}: cargo::core::compiler::fingerprint: fingerprint error for chrono-tz v0.10.4/Check { test: false }/TargetInner { ..: lib_target("chrono_tz", ["lib"], "C:\\Users\\dvill\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\chrono-tz-0.10.4\\src\\lib.rs", Edition2021) }
+   0.132252700s  INFO prepare_target{force=false package_id=chrono-tz v0.10.4 target="chrono_tz"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\chrono-tz-b7c43945ab9e61e1\lib-chrono_tz`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.134994300s  INFO prepare_target{force=false package_id=chrono-tz v0.10.4 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for chrono-tz v0.10.4/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\dvill\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\chrono-tz-0.10.4\\build.rs", Edition2021) }
+   0.135053100s  INFO prepare_target{force=false package_id=chrono-tz v0.10.4 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\chrono-tz-76fe8dcd00cb5615\run-build-script-build-script-build`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.135516100s  INFO prepare_target{force=false package_id=chrono-tz v0.10.4 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for chrono-tz v0.10.4/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\dvill\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\chrono-tz-0.10.4\\build.rs", Edition2021) }
+   0.135552900s  INFO prepare_target{force=false package_id=chrono-tz v0.10.4 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\chrono-tz-ec41d63e9376330c\build-script-build-script-build`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.137937700s  INFO prepare_target{force=false package_id=iseeyou v0.1.0 (C:\Users\dvill\Documents\projects\iseeyou-alert) target="iseeyou"}: cargo::core::compiler::fingerprint: fingerprint error for iseeyou v0.1.0 (C:\Users\dvill\Documents\projects\iseeyou-alert)/Check { test: true }/TargetInner { name: "iseeyou", doc: true, ..: with_path("C:\\Users\\dvill\\Documents\\projects\\iseeyou-alert\\src\\main.rs", Edition2024) }
+   0.137988400s  INFO prepare_target{force=false package_id=iseeyou v0.1.0 (C:\Users\dvill\Documents\projects\iseeyou-alert) target="iseeyou"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\dvill\Documents\projects\iseeyou-alert\target\debug\.fingerprint\iseeyou-3b75ad2f3f29ee7f\test-bin-iseeyou`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   Compiling num-traits v0.2.19
+   Compiling chrono-tz v0.10.4
+error: could not compile `chrono-tz` (build script) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `num-traits` (build script) due to 1 previous error
