@@ -2,7 +2,6 @@ use chrono::Date;
 use chrono::DateTime;
 use chrono::Utc;
 use chrono_tz::{Tz, America::Bogota};
-
 pub struct Alert{
     pub id: u32,
     pub alert_type: String,
